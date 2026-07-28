@@ -8,17 +8,30 @@
 </head>
 
 <body>
-    <div>
+    
+  <ol>
+    
         <h1>Media-images,audio,video</h1>
-        <ol>
-            <li>Image</li>
-            <img src="https://www.w3schools.com/html/pic_trulli.jpg" width="250">
-            <li>Audio</li>
-            <audio controls src="https://www.w3schools.com/html/horse.ogg"></audio>
-            <li>Video</li>
-            <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls loop muted></video>
-        </ol>
-    </div>
+    
+    <li>
+        Image<br>
+        <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="image" width="250">
+    </li>
+
+    <li>
+        Audio<br>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+        </audio>
+    </li>
+
+    <li>
+        Video<br>
+        <video controls loop muted width="400">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+    </li>
+</ol>
 </body>
 
 </html>
